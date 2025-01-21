@@ -1,12 +1,9 @@
 #include <stdio.h>
 
-char* welcome() {
-    char rep;
-    scanf("%c",rep);
-    return rep;
-}
 
 int main() {
-    printf("%s", welcome());
-    return 0;
+    float g;
+    scanf("%f", &g);
+    printf("You entered %.2f", g);
+    return g;
 }
