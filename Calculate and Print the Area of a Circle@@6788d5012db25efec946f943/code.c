@@ -2,7 +2,6 @@
 
 
 int main() {
-    2*pi*r**2
 
     float radius;
     scanf("%f", &radius);
