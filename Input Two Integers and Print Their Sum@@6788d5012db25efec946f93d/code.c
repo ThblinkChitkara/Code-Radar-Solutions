@@ -2,9 +2,9 @@
 
 
 int main() {
-    double a,b;
-    scanf("%d",a);
-    scanf("%d",b);
-    printf("%d", a+b);
+    int a,b;
+    scanf("%i",a);
+    scanf("%i",b);
+    printf("%i", a+b);
     return 0;
 }
