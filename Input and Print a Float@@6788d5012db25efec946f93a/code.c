@@ -7,6 +7,6 @@ char* welcome() {
 }
 
 int main() {
-    printf("%c", welcome());
+    printf("%s", welcome());
     return 0;
 }
