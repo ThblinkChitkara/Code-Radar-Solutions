@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 char* welcome() {
-    char* rep malloc(sizeof(char)*30);
+    char* rep = malloc(sizeof(char)*30);
     scanf("%c",rep);
     return rep;
 }
