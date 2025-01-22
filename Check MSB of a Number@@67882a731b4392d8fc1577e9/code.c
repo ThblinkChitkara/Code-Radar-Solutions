@@ -3,8 +3,9 @@
 int main() {
     int a, b;
     scanf("%i", &a);
- 
-    char* rep = (a == 2147483648) ? "Set" : "Not Set";
+    b = 1;
+    b <<= 31
+    char* rep = (a == b) ? "Set" : "Not Set";
     printf(rep);
     return 0;
 }
