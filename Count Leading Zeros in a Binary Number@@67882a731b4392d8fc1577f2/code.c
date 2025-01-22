@@ -5,10 +5,10 @@
 int main() {
     int a, rep, temp;
     temp = 1 << 31;
-    rep = 32;
+    rep = 0;
     a = scanf("%i", &a);
-    while (!(a & temp) && rep != 0){
-        rep--;
-        a >>=1;
+    while (!(a & temp) && rep != 32){
+        rep++;
+        a <<=1;
     }
 }
