@@ -6,7 +6,7 @@ int main() {
     scanf("%i", &b);
     c = 1;
     c <<= b;
-    a |= b;
+    a ^= b;
     
     printf("%i", a);
     return 0;
