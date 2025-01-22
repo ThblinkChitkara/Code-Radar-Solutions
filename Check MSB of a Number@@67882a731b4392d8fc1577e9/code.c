@@ -5,7 +5,7 @@ int main() {
     scanf("%i", &a);
     b = 1;
     b <<= 31;
-    char* rep = (a == b) ? "Set" : "Not Set";
+    char* rep = (a & b) ? "Set" : "Not Set";
     printf(rep);
     return 0;
 }
