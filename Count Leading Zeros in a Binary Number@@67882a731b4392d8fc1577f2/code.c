@@ -11,4 +11,5 @@ int main() {
         rep++;
         a <<=1;
     }
+    printf("%i", rep);
 }
