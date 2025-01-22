@@ -4,7 +4,7 @@ int main() {
     int a, b;
     scanf("%i", &a);
     scanf("%i", &b);
-    a ~= b;
+    a = ~b;
     printf("%i", a);
     return 0;
 }
