@@ -9,6 +9,6 @@ int main() {
     a = scanf("%i", &a);
     while (!(a & temp)){
         rep--;
-        a <<=1;
+        a >>=1;
     }
 }
