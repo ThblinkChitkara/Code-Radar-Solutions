@@ -8,8 +8,9 @@ int main() {
     rep = 0;
     a = scanf("%i", &a);
     while (!(a & temp) && rep != 32){
-        rep++;
+        ++rep;
         a <<=1;
     }
     printf("%i", rep);
+    return 0;
 }
