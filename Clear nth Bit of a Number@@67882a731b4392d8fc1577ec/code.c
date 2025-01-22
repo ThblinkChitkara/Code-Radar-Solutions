@@ -7,7 +7,7 @@ int main() {
     c = 1;
     c <<= b;
     a |= b;
-    char* rep = (a) ? "Set" : "Not Set";
-    printf(rep);
+    
+    printf("%i", a);
     return 0;
 }
