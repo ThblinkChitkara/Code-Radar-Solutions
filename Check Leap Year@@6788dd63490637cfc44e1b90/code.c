@@ -10,7 +10,7 @@ int main() {
 
     printf("%s", 
 
-    !(a%4) && ( !(a%100) || !(a%400))
+    !(a%4) && ( !(a%100) || (a%400))
 
     ? "Leap Year": "Not a Leap Year");
 
