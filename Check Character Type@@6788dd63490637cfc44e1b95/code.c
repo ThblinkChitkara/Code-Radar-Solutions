@@ -2,7 +2,7 @@
 
 char* vowel_or_consonant(char a){
     switch (a) {
-        case "a":
+        case 'a':
             return "Vowel";
         case "e":
             return "Vowel";
