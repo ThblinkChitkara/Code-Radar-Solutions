@@ -7,7 +7,7 @@ int main() {
 
     printf("%s", 
     (a >= 'a' && a <= 'z') ? "Lowercase" : 
-        (a >= "A" && a <= "Z") ? "Uppercase" :
+        (a >= 'A' && a <= 'Z') ? "Uppercase" :
             "Not an alphabet" );
     return 0;
 }
