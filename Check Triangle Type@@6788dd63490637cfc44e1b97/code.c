@@ -6,7 +6,7 @@ int main() {
 
     printf("%s", 
     (a == b && a == c) ? "Equilateral" :
-    (a == b || a == c || c == b) "Isosceles" :
+    (a == b || a == c || c == b) ? "Isosceles" :
     "Scalene" );
     return 0;
 }
