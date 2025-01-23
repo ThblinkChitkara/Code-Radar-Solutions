@@ -10,9 +10,8 @@ int main() {
 
     printf("%s", 
 
-    (!(a%100) && !(a%400)) || !(a%4)
-
-    ? "Leap Year": "Not a Leap Year");
+    (a%100) && !(a%4) ? "Leap Year" :
+    !(a%400) ? "Leap Year" : "Not a Leap Year");
 
     return 0;
 }
