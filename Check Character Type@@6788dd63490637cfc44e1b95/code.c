@@ -21,6 +21,6 @@ char* vowel_or_consonant(char a){
 
 int main() {
     char a;
-    printf("%s", welcome());
+    printf("s");
     return 0;
 }
