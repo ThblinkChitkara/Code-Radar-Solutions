@@ -4,15 +4,15 @@ char* vowel_or_consonant(char a){
     switch (a) {
         case 'a':
             return "Vowel";
-        case "e":
+        case 'e':
             return "Vowel";
-        case "i":
+        case 'i':
             return "Vowel";;
-        case "o":
+        case 'o':
             return "Vowel";
-        case "u":
+        case 'u':
             return "Vowel";
-        case "y":
+        case 'y':
             return "Vowel";
         default :
             return "Consonant";
@@ -21,17 +21,17 @@ char* vowel_or_consonant(char a){
 
 char* vowel_or_consonant_MAJ(char a){
     switch (a) {
-        case 'a':
+        case 'A':
             return "Vowel";
-        case "e":
+        case 'E':
             return "Vowel";
-        case "i":
+        case 'I':
             return "Vowel";;
-        case "o":
+        case 'O':
             return "Vowel";
-        case "u":
+        case 'U':
             return "Vowel";
-        case "y":
+        case 'Y':
             return "Vowel";
         default :
             return "Consonant";
