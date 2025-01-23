@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 char* vowel_or_consonant(char a){
-    switch a {
+    switch (a) {
         case "a":
             return "Vowel";
         case "e":
@@ -20,7 +20,7 @@ char* vowel_or_consonant(char a){
 }
 
 char* vowel_or_consonant_MAJ(char a){
-    switch a {
+    switch (a) {
         case "a":
             return "Vowel";
         case "e":
