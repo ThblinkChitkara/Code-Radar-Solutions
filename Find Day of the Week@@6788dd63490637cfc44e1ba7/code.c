@@ -5,7 +5,7 @@ int main() {
     scanf("%i", &a);
     switch (a){
         case 1 :
-        printf("Monday");
+            printf("Monday");
         case 2 :
             printf("Tuesday");
         case 3 :
@@ -19,7 +19,7 @@ int main() {
         case 7 :
             printf("Sunday");
         default :
-            return 1
+            return 1;
     }
     
     return 0;
