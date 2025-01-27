@@ -2,7 +2,7 @@
 
 int main() {
     int a;
-    scnaf("%i", &a);
+    scanf("%i", &a);
     switch (a){
         case 1 :
         printf("Monday");
