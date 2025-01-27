@@ -1,34 +1,11 @@
-
 #include <stdio.h>
 
 int main() {
-    int a;
-    scanf("%i", &a);
-    switch (a){
-        case 1 :
-            printf("Monday");
-            break;
-        case 2 :
-            printf("Tuesday");
-            break;
-        case 3 :
-            printf("Wednesday");
-            break;
-        case 4 :
-            printf("Thursday");
-            break;
-        case 5 :
-            printf("Friday");
-            break;
-        case 6 :
-            printf("Saturday");
-            break;
-        case 7 :
-            printf("Sunday");
-            break;
-        default :
-            return 1;
-    }
-    
-    return 0;
+int a;
+scanf ("%i", &a);
+printf("%s", a == 1 ? "Monday" : a == 2 ? "Tuesday" : a == 3 ?
+"Wednesday"
+: a == 4 ? "Thursday" : a == 5 ? "Friday" : a == 6 ?
+"Saturday" : a == 7 ? "Sunday" : "Invalid" );
+return 0;
 }
