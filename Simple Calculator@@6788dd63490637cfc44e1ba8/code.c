@@ -3,7 +3,7 @@
 
 
 int main(){
-    printf("Write your expression :");
+
     int a, b;
     char c;
     scanf("%i %c %i", &a, &c, &b);
