@@ -1,20 +1,21 @@
 #include <stdio.h>
 
-#include <stdio.h>
-#include <string.h>
-
 int main() {
-    char a[20];  // Tableau pour stocker l'entrée utilisateur
-    scanf("%19s", a);  // Lecture sécurisée d'une chaîne (évite le dépassement de mémoire)
+    int month;
+    scanf("%d", &month);
 
-    if (strcmp(a, "February") == 0) {
-        printf("28");
-    } else if (strcmp(a, "January") == 0 || strcmp(a, "March") == 0 || strcmp(a, "May") == 0 || 
-               strcmp(a, "July") == 0 || strcmp(a, "August") == 0 || strcmp(a, "October") == 0 || 
-               strcmp(a, "December") == 0) {
-        printf("31");
-    } else {
-        printf("30");
+    switch (month) {
+        case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+            printf("31\n");
+            break;
+        case 4: case 6: case 9: case 11:
+            printf("30\n");
+            break;
+        case 2:
+            printf("28\n");
+            break;
+        default:
+            printf("Invalid month.\n");
     }
 
     return 0;
