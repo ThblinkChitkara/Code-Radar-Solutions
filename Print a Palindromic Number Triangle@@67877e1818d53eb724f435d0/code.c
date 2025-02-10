@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#include <stdio.h>
+
 int main() {
     int N;
     scanf("%d", &N);
@@ -13,7 +15,9 @@ int main() {
         for (int j = i - 1; j >= 1; j--) {
             printf("%d", j);
         }
-        printf("\n"); // Move to the next line
+        if (i != N) {  // Avoid extra newline at the end
+            printf("\n");
+        }
     }
 
     return 0;
