@@ -2,7 +2,7 @@
 
 int main() {
     int a;
-    int temp = 0;
+    int temp = 1;
     scanf("%i", &a);
     for (int i = 0; i < a; i++){
         for (int y = -1; y < i; y++){
