@@ -1,6 +1,6 @@
 #include <ctype.h>
 #include <stdio.h>
-#include <str.h>
+#include <string.h>
 // Fonction pour chiffrer le message avec le chiffrement de César
 void caesarCipher(char message[], int shift, char encrypted[]) {
     for (int i = 0; message[i] != '\0'; i++) {
