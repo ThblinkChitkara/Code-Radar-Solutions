@@ -5,6 +5,9 @@ int main() {
     scanf("%d", &N); // Lire le nombre de lignes
 
     for (int i = 1; i <= N; i++) { // Boucle pour chaque ligne
+        for (int y = 0; y <= N/2; y++){
+            printf(" ");
+        }
         for (int j = 1; j <= i; j++) { // Boucle pour afficher les nombres
             printf("%d ", j);
         }
