@@ -24,6 +24,6 @@ void compressString(char *str, char *compressed) {
 
     // Si la chaîne compressée n'est pas plus courte, retourner l'originale
     if (strlen(compressed) >= len) {
-        compressed = str;
+        strcpy(compressed, str);
     }
 }
